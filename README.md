@@ -75,7 +75,7 @@ pheSera[pheSera$mean_blanks.MedA > 8000,]
 pheSera[pheSera$sd_blanks.MedA > 8000,]
 ```
 
-##there seems to be a problem with Apac X1 slide 28 and Apac X2 slide 19 --> Flag these
+###there seems to be a problem with Apac X1 slide 28 and Apac X2 slide 19 --> Flag these
 ```r
 pheSera$Flag[(pheSera$study=="Apac_X1" & pheSera$Slide==28)|(pheSera$study=="Apac_X2" & pheSera$Slide==19)] <- "High Blank"
 ```
